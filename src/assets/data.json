@@ -1,0 +1,728 @@
+{
+  "formatoCabecera": {
+    "idFormato": "d4f9bd92-510e-423a-bf80-86eaab1bee2f",
+    "fecha": "2022-11-24",
+    "hora": "09:19",
+    "fechaJson": "2022-11-24T14:19:42.826Z"
+  },
+  "formatoLugarHechos": {
+    "ubicacionGPS": {
+      "longitud": -74.0973538,
+      "latitud": 4.648207,
+      "cuadranteGPS": "MEBOGMNVCCC01E13C01000004",
+      "direccionGeoInversa": "Cl. 42 #59-75"
+    },
+    "jurisdiccion": {
+      "cai": {
+        "idUnidad": "3637",
+        "nombreUnidad": "CAI TEUSAQUILLO"
+      },
+      "subestacion": {
+        "idUnidad": "",
+        "nombreUnidad": ""
+      },
+      "estacion": {
+        "idUnidad": "19387",
+        "nombreUnidad": "ESTACION DE POLICIA TEUSAQUILLO"
+      },
+      "metropolitana": {
+        "idUnidad": "",
+        "nombreUnidad": "MEBOG - METROPOLITANA DE BOGOTA"
+      },
+      "departamento": {
+        "idUnidad": "",
+        "nombreUnidad": ""
+      },
+      "cuadrante": {
+        "id": "8327",
+        "codigo": "MEBOGMNVCCC01E13C06000014"
+      }
+    },
+    "ubicacionNomenclatura": {
+      "departamento": {
+        "codigo": "200",
+        "nombre": "ANTIOQUIA",
+        "dane": "40"
+      },
+      "municipio": {
+        "codigo": "348",
+        "nombre": "BELLO",
+        "dane": "11001"
+      },
+      "localidadComuna": {
+        "codigo": "4532",
+        "nombre": "E-13 TEUSAQUILLO"
+      },
+      "barrio": {
+        "codigo": "6767",
+        "nombre": "LA ESMERALDA E-13"
+      },
+      "direccionIngresada": "Cl. 42 #59-75",
+      "camposDireccion": {
+        "ViaPrincipal": "Cl.",
+        "NumPrincipal": "42",
+        "LetraPrincipal": "",
+        "SufijoPrincipal": "",
+        "ViaSecundaria": "KR",
+        "NumSecundaria": "59",
+        "LetraSecundaria": "",
+        "NumInmueble": "75",
+        "PuntoCardinal": "",
+        "Complemento1": "",
+        "NumComplemento1": "",
+        "Complemento2": "",
+        "NumComplemento2": "",
+        "Complemento3": "",
+        "NumComplemento3": ""
+      },
+      "tipoLugar": {
+        "id": "1299",
+        "nombre": "SITIOS PÚBLICOS O ABIERTOS AL PÚBLICO"
+      },
+      "Zona": "Urbana"
+    }
+  },
+  "formatoDatosPersona": {
+    "tipoPersona": "NATURAL",
+    "personaNatural": {
+      "infoIdentificacion": {
+        "codigoTipoId": "527",
+        "tipoId": "CEDULA CIUDADANIA",
+        "numeroId": "80957466",
+        "nombres": "Hugo Mario",
+        "apellidos": "Arbelaez Pinto"
+      },
+      "paisNacionalidad": "AFGANISTAN",
+      "idNacionalidad": "",
+      "infoDemografica": {
+        "fechaNacimiento": "1987-09-23",
+        "edad": "16",
+        "poblacionVulnerable": {
+          "id": "23423",
+          "descripcion": "Campesino"
+        },
+        "sexo": "Otro",
+        "idSexo": "",
+        "contacto": {
+          "telefono": "3002453627",
+          "email": "persona@correo.com"
+        },
+        "nombreEstablecimiento": "Panaderia Pan",
+        "actividadEnDesarrollo": "venta de pan",
+        "domicilio": {
+          "pais": {
+            "codigo": "10",
+            "nombre": "COLOMBIA"
+          },
+          "departamento": {
+            "codigo": "200",
+            "nombre": "ANTIOQUIA",
+            "dane": "40"
+          },
+          "municipio": {
+            "codigo": "348",
+            "nombre": "BELLO",
+            "dane": "11001"
+          },
+          "direccionIngresada": "Cl. 42 #59-75",
+          "camposDireccion": {
+            "ViaPrincipal": "Cl.",
+            "NumPrincipal": "42",
+            "LetraPrincipal": "",
+            "SufijoPrincipal": "",
+            "ViaSecundaria": "KR",
+            "NumSecundaria": "59",
+            "LetraSecundaria": "",
+            "NumInmueble": "75",
+            "PuntoCardinal": "",
+            "Complemento1": "",
+            "NumComplemento1": "",
+            "Complemento2": "",
+            "NumComplemento2": "",
+            "Complemento3": "",
+            "NumComplemento3": ""
+          }
+        },
+        "custodiaMenor": {
+          "tipoPersona": "NATURAL",
+          "idTipoPersona": "",
+          "personaNatural": {
+            "codigoTipoId": "535",
+            "tipoId": "CEDULA CIUDADANIA",
+            "numeroId": "80957466",
+            "nombres": "Hugo Mario",
+            "apellidos": "Arbelaez Pinto"
+          },
+          "paisNacionalidad": "AFGANISTAN",
+          "idNacionalidad": "",
+          "infoDemografica": {
+            "fechaNacimiento": "1987/09/23",
+            "edad": "35",
+            "poblacionVulnerable": {
+              "id": "23423",
+              "descripcion": "Campesino"
+            },
+            "sexo": "Otro",
+            "idSexo": "",
+            "contacto": {
+              "telefono": "3002453627",
+              "email": "persona@correo.com"
+            },
+            "domicilio": {
+              "pais": {
+                "codigo": "10",
+                "nombre": "COLOMBIA"
+              },
+              "departamento": {
+                "codigo": "200",
+                "nombre": "ANTIOQUIA",
+                "dane": "40"
+              },
+              "municipio": {
+                "codigo": "348",
+                "nombre": "BELLO",
+                "dane": "11001"
+              },
+              "direccionIngresada": "Cl. 42 #59-75",
+              "camposDireccion": {
+                "ViaPrincipal": "Cl.",
+                "NumPrincipal": "42",
+                "LetraPrincipal": "",
+                "SufijoPrincipal": "",
+                "ViaSecundaria": "KR",
+                "NumSecundaria": "59",
+                "LetraSecundaria": "",
+                "NumInmueble": "75",
+                "PuntoCardinal": "",
+                "Complemento1": "",
+                "NumComplemento1": "",
+                "Complemento2": "",
+                "NumComplemento2": "",
+                "Complemento3": "",
+                "NumComplemento3": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "personaJuridica": {
+      "infoIdentificacion": {
+        "codigoTipoId": "15",
+        "tipoId": "NIT",
+        "numeroId": "900723456",
+        "razonSocial": "Creaciones Santropel"
+      },
+      "contacto": {
+        "telefono": "3002453627",
+        "email": "persona@correo.com"
+      },
+      "actividadEnDesarrollo": "venta de pan",
+      "domicilio": {
+        "pais": {
+          "codigo": "10",
+          "nombre": "COLOMBIA"
+        },
+        "departamento": {
+          "codigo": "1298",
+          "nombre": "BOGOTA",
+          "dane": "40"
+        },
+        "municipio": {
+          "codigo": "1299",
+          "nombre": "BOGOTA",
+          "dane": "11001"
+        },
+        "direccionIngresada": "Cl. 42 #59-75",
+        "camposDireccion": {
+          "ViaPrincipal": "",
+          "NumPrincipal": "",
+          "LetraPrincipal": "",
+          "SufijoPrincipal": "",
+          "ViaSecundaria": "",
+          "NumSecundaria": "",
+          "LetraSecundaria": "",
+          "NumInmueble": "",
+          "PuntoCardinal": "",
+          "Complemento1": "",
+          "NumComplemento1": "",
+          "Complemento2": "",
+          "NumComplemento2": "",
+          "Complemento3": "",
+          "NumComplemento3": ""
+        }
+      }
+    }
+  },
+  "formatoFundamentoNormativo": {
+    "jerarquia": {
+      "articulo": "",
+      "idArticulo": "3",
+      "numeral": "",
+      "idNumeral": "9",
+      "literal": "",
+      "idLiteral": "0"
+    },
+    "idComportamiento": 3,
+    "descripcion": ""
+  },
+  "formatoMediosPolicia": {
+    "aplicacionMediosPolicia": {
+      "aplicaAmonestacion": true,
+      "aplicaRegistroPersona": true,
+      "aplicaMediacionPolicial": false,
+      "aplicaRegistroTransporte": false,
+      "aplicaIncautaciones": true,
+      "aplicaIncautacionArmaFuego": false,
+      "aplicaSuspencionActividad": false,
+      "aplicaRetiroSitio": false,
+      "aplicaTrasladoPolicivo": false,
+      "aplicaAprehencionJudicial": false,
+      "aplicaIngresoSinOrdenEscrita": false,
+      "aplicaApoyoParticulares": false,
+      "aplicaUsoDeFuerza": false,
+      "aplicaTrasladoProteccion": false
+    },
+    "incautaciones": [
+      {
+        "tipoBien": {
+          "id": "123",
+          "descripcion": "tipoBien2 "
+        },
+        "claseBien": {
+          "id": "123",
+          "descripcion": "tipoBien2 "
+        },
+        "unidadMedida": "unidad",
+        "idUnidadMedida": "",
+        "cantidad": 10.01,
+        "marca": "marca 1 uno ",
+        "descripcion": "descripcion 1 ",
+        "numeroArma": "86787EESS",
+        "permisoPorte": "",
+        "vigenciaPermiso": "",
+        "imei": "1823746217834681283",
+        "motivo": "",
+        "idMotivoIncautacion": "",
+        "estado": "",
+        "idEstadoElementos": "",
+        "accesorios": ""
+      }
+    ],
+    "trasladoPPolicivo": {
+      "unidadTraslado": {
+        "idUnidad": "",
+        "nombreUnidad": ""
+      },
+      "razonTraslado": {
+        "id": "",
+        "descripcion": ""
+      },
+      "comunicacionAllegado": true,
+      "allegado": {
+        "infoIdentificacion": {
+          "codigoTipoId": "85",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "telefono": "3005672342"
+      },
+
+      "motivoNoComunicacion": {
+        "id": "",
+        "descripcion": "No contestado nadie"
+      },
+      "seInformoASuperior": true,
+      "nFolioIngreso": "",
+      "nFolioSalida": "",
+      "libroAnotacion": {
+        "id": "",
+        "descripcion": "Libro de guardia"
+      },
+      "fechaInicioTraslado": "",
+      "fechaFinTraslado": "",
+      "duracionTraslado": ""
+    },
+    "aprehensionFinJudicial": {
+      "causas": [
+        {
+          "seleccionado": true,
+          "idCausa": "",
+          "descripcionCausa": ""
+        },
+        {
+          "seleccionado": false,
+          "idCausa": "",
+          "descripcionCausa": ""
+        }
+      ],
+      "detalleCausa": "",
+      "autoridadRecepciona": {
+        "idAutoridad": "",
+        "nombreAutoridad": ""
+      }
+    },
+    "ingresoSinOrdenEscrita": {
+      "motivoIngreso": {
+        "idMotivo": 1139,
+        "descripcionMotivo": "PARA SOCORRER A ALGUIEN QUE DE ALGUNA MANERA PIDA AUXILIO"
+      },
+      "inmuebleAbierto": false,
+      "seInformoASuperior": false,
+      "informacionPropietario": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto",
+          "numeroTelefonoPropietario": "3009999999"
+        }
+      },
+      "mismaDireccionDeHechos": false,
+      "direccionResidencia": "Cra 15 # 15a - 56"
+    },
+    "usoDeFuerza": {
+      "motivoDeFuerza": {
+        "idMotivo": "",
+        "descripcionMotivo": ""
+      },
+      "seInformoASuperior": false,
+      "danosColaterales": false,
+      "seInformoAministerioPublico": false,
+      "funcionarioPublico": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        }
+      },
+      "cumplioPrincipiosDeFuerza": false
+    },
+    "trasladoProteccion": {
+      "ponderacion": [
+        {
+          "pregunta": "",
+          "respuesta": true
+        }
+      ],
+      "motivoTraslado": {
+        "id": 1157,
+        "descripcion": "F. SE ENCUENTRE EN PELIGRO DE SER AGREDIDO"
+      },
+      "lugarTraslado": {
+        "tipoDestinoTraslado": {
+          "id": 1093,
+          "descripcion": "CENTRO DE TRASLADO POR PROTECION - CTP"
+        },
+        "nombre": "",
+        "direccion": "Cra 12 12 34",
+        "telefono": "Federico Parra"
+      },
+      "allegado": {
+        "infoIdentificacion": {
+          "codigoTipoId": "2",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "llamada": {
+          "telefono": "3005672342",
+          "fecha": "16-11-2022",
+          "hora": "09:19"
+        },
+        "vinculo": "Madre",
+        "idVinculo": "22"
+      },
+      "seInformoTraslado": true,
+      "seInformoMotivo": true,
+      "manifestaciones": "",
+      "consideracionesUniformado": "",
+      "conductor": {
+        "grado": "Teniente",
+        "nombresApellidos": "Hugo Mario Perez Perez",
+        "placa": "",
+        "unidadLaboral": "",
+        "cargo": "Comandante CAI",
+        "telefono": "3007689593",
+        "firma": {
+          "idArchivo": "de4da3d2-52fe-4034-9c28-29e8c0a162b8",
+          "extArchivo": "image/jpeg"
+        }
+      },
+      "observacionesConductor": "",
+      "vehiculo": {
+        "siglaVehiculo": "",
+        "placaVehiculo": "NHY847",
+        "tipoVehiculo": "",
+        "idTipoVehiculo": "1481"
+      }
+    }
+  },
+  "formatoHechosDescripcion": {
+    "descripcionHechos": "SE REALIZO UN REGISTRO PERSONAL A ESTE CIUDADANO Y SE LE ENCONTRÓ UN ARMA BLANCA TIPO CUCHILLO",
+    "descargosAudio": {
+      "archivo": {
+        "idArchivo": "",
+        "extArchivo": "",
+        "rutaArchivo": ""
+      }
+    },
+    "descargosTranscritos": "MANIFESTÓ: TENGO EL ARMA PORQUE ESTOY AMENAZADO.",
+    "descargosEscritos": "MANIFESTÓ: TENGO EL ARMA PORQUE ESTOY AMENAZADO."
+  },
+  "formatoMedidasCorrectivas": {
+    "medidasCorrectivasPolicia": {
+      "senalaMedidaPolicia": true,
+      "medidas": [
+        {
+          "idMedida": "1",
+          "descripcion": "Amonestacion",
+          "detalle": "",
+          "aplica": false,
+          "obligatoria": "no"
+        },
+        {
+          "idMedida": "2",
+          "descripcion": "Disolucion de reunion...",
+          "detalle": "",
+          "aplica": true,
+          "obligatoria": "no"
+        }
+      ],
+      "autoridad": {
+        "idEntidad": "1",
+        "nombreEntidad": ""
+      },
+      "senalaMedidaInspector": true
+    },
+    "medidasCorrectivasInspector": {
+      "medidas": [
+        {
+          "idMedida": "6",
+          "descripcion": "Disolucion de reunion...",
+          "detalle": ""
+        }
+      ],
+      "autoridad": {
+        "idEntidad": "2",
+        "nombreEntidad": ""
+      },
+      "informaDerechoObjecion": true
+    },
+    "recursoApelacion": {
+      "interponeApelacion": true,
+      "sustentacionApelacion": "Sustentacion apelacion ...",
+      "autoridad": {
+        "idEntidad": "",
+        "nombreEntidad": ""
+      }
+    }
+  },
+  "formatoMediosPruebas": {
+    "mediosPrueba": {
+      "adjuntaInformePolicia": true,
+      "adjuntaInspeccion": true,
+      "adjuntaEntrevistas": true,
+      "adjuntaTestimonios": true,
+      "adjuntaOtrosAnexos": true
+    },
+    "entrevistas": [
+      {
+        "entrevistado": {
+          "infoIdentificacion": {
+            "tipoId": "CEDULA CIUDADANIA",
+            "numeroId": "80957466",
+            "nombres": "Hugo Mario",
+            "apellidos": "Arbelaez Pinto"
+          },
+          "telefono": "3002453627",
+          "domicilio": {
+            "pais": {
+              "codigo": "10",
+              "nombre": "COLOMBIA"
+            },
+            "departamento": {
+              "codigo": "1298",
+              "nombre": "BOGOTA",
+              "dane": "40"
+            },
+            "municipio": {
+              "codigo": "1299",
+              "nombre": "BOGOTA",
+              "dane": "11001"
+            },
+            "direccionIngresada": "Cl. 42 #59-75",
+            "camposDireccion": {
+              "ViaPrincipal": "",
+              "NumPrincipal": "",
+              "LetraPrincipal": "",
+              "SufijoPrincipal": "",
+              "ViaSecundaria": "",
+              "NumSecundaria": "",
+              "LetraSecundaria": "",
+              "NumInmueble": "",
+              "PuntoCardinal": "",
+              "Complemento1": "",
+              "NumComplemento1": "",
+              "Complemento2": "",
+              "NumComplemento2": ""
+            }
+          },
+          "relatoEntrevistado": ""
+        }
+      }
+    ],
+    "anexos": {
+      "audios": [
+        {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      ],
+      "videos": [
+        {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      ],
+      "docsImg": [
+        {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      ],
+      "archivos": [
+        {
+          "archivo": {
+            "idArchivo": "04c21931-08ee-44b2-8976-de49f6a87072",
+            "extArchivo": "image/jpeg",
+            "rutaArchivo": "https://rnmc-poc-upload.s3.amazonaws.com/87959547-73bd-4b60-80cd-2511aff9af4a/Multimedia/images/04c21931-08ee-44b2-8976-de49f6a87072.jpg"
+          }
+        }
+      ]
+    }
+  },
+  "formatoAutoridadYDiligenciamiento": {
+    "autoridad": {
+      "tipoAutoridad": "Policia",
+      "policia": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "consecutivo": "809425",
+        "undeConsecutivo": "89",
+        "undeFuerza": "6",
+        "unde_Consecutivo_Laborando": "49478",
+        "telefono": "3103201234",
+        "grado": "Patrullero",
+        "numeroPlaca": "111891",
+        "cargo": "Patrulla de vigilancia"
+      },
+      "adminMuni": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "cargo": "Inspector de vigilancia"
+      }
+    },
+    "quienDiligencia": {
+      "rolSistema": "policia",
+      "infoIdentificacion": {
+        "codigoTipoId": "",
+        "tipoId": "CEDULA CIUDADANIA",
+        "numeroId": "80957466",
+        "nombres": "Hugo Mario",
+        "apellidos": "Arbelaez Pinto"
+      },
+      "grado": "Patrullero",
+      "numeroPlaca": "111891",
+      "cargo": "Patrulla de vigilancia"
+    }
+  },
+  "formatoCierre": {
+    "materializacionSusTempActividad": {
+      "fechaImposicionMedida": "",
+      "fechaTerminoMedida": "",
+      "diasTerminoMedida": "5"
+    },
+    "observacionesUniformado": {
+      "observaciones": "wreertsdgsd"
+    },
+    "informacionCaso": {
+      "numeroCaso": "129834162748",
+      "fechaCaso": ""
+    },
+    "firmas": {
+      "firmaAutoridad": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "firma": {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      },
+      "firmaPresuntoInfractor": {
+        "infoIdentificacion": {
+          "codigoTipoId": "",
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "firma": {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      },
+      "firmaTestigo": {
+        "infoIdentificacion": {
+          "tipoId": "CEDULA CIUDADANIA",
+          "numeroId": "80957466",
+          "nombres": "Hugo Mario",
+          "apellidos": "Arbelaez Pinto"
+        },
+        "firma": {
+          "archivo": {
+            "idArchivo": "",
+            "extArchivo": "",
+            "rutaArchivo": ""
+          }
+        }
+      }
+    }
+  }
+}
