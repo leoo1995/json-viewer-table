@@ -77,18 +77,66 @@ const JSONViewer: React.FC<Props> = ({ data }) => {
   };
 
   const renderRow = (key: string, value: any) => {
+    if (value !== null && typeof value === "object") {
+      return (
+        <TableRow key={key}>
+          <TableCell colSpan={2} style={{ padding: 0, border: "none" }}>
+            <Table size="small">
+              <TableHead>
+                <TableRow>
+                  <TableCell
+                    style={{
+                      verticalAlign: "top",
+                      width: 100,
+                      boxSizing: "border-box",
+                      backgroundColor: "",
+                    }}
+                  >
+                    {isObject(value) || isArray(value) ? (
+                      <IconButton onClick={() => toggleCollapse(key)}>
+                        {isObject(value) &&
+                          (collapsed[key] ? <UnfoldMore /> : <UnfoldLess />)}
+                      </IconButton>
+                    ) : undefined}
+                  </TableCell>
+                  {Number.isNaN(Number(key)) && (
+                    <TableCell colSpan={2} style={{ color: "darkblue" }}>
+                      {Number.isNaN(Number(key)) ? camelCaseToSpaces(key) : ""}
+                    </TableCell>
+                  )}
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableCell colSpan={2}>
+                  <Collapse in={!collapsed[key]}>{renderValue(value)}</Collapse>
+                  {collapsed[key] && "{ ... }"}
+                </TableCell>
+              </TableBody>
+            </Table>
+          </TableCell>
+        </TableRow>
+      );
+    }
+
     return (
       <TableRow key={key}>
-        <TableCell style={{ verticalAlign: "top", width: 100 }}>
+        {/* <TableCell
+          colSpan={2}
+          style={{ verticalAlign: "top", width: 100, backgroundColor: "" }}
+        >
           {isObject(value) || isArray(value) ? (
             <IconButton onClick={() => toggleCollapse(key)}>
               {isObject(value) &&
                 (collapsed[key] ? <UnfoldMore /> : <UnfoldLess />)}
             </IconButton>
           ) : undefined}
-        </TableCell>
+        </TableCell> */}
         {Number.isNaN(Number(key)) && (
-          <TableCell style={{ color: "darkblue" }} width={200}>
+          <TableCell
+            colSpan={1}
+            style={{ color: "darkblue", paddingLeft: 100 + 16 }}
+            width={200}
+          >
             {Number.isNaN(Number(key)) ? camelCaseToSpaces(key) : ""}
           </TableCell>
         )}
@@ -109,6 +157,7 @@ const JSONViewer: React.FC<Props> = ({ data }) => {
 
   return (
     <Table
+      size="small"
       style={{
         border: "1px solid rgba(224, 224, 224, 1)",
         borderRadius: "16px",
