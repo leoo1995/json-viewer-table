@@ -48,6 +48,7 @@ const JSONViewer: React.FC<Props> = ({ data }) => {
 
   const isDate = (value: any) => {
     if (typeof value !== "string") return false;
+    if (value.match(/^[^-/]*$/)) return false;
     return dayjs(value).isValid();
   };
   const isNumber = (value: any) => {
@@ -80,8 +81,8 @@ const JSONViewer: React.FC<Props> = ({ data }) => {
     if (value !== null && typeof value === "object") {
       return (
         <TableRow key={key}>
-          <TableCell colSpan={2} style={{ padding: 0, border: "none" }}>
-            <Table size="small">
+          <TableCell colSpan={2} style={{ padding: 0 }}>
+            <Table size="small" style={{ borderColor: "red" }}>
               <TableHead>
                 <TableRow>
                   <TableCell

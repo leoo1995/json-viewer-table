@@ -89,7 +89,11 @@ const json = {
 };
 
 const App = () => {
-  return <JSONViewer data={data} />;
+  return (
+    <div style={{ padding: 16 }}>
+      <JSONViewer data={data} />
+    </div>
+  );
 };
 
 export default App;
